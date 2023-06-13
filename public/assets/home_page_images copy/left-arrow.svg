@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46.443" height="39.599" viewBox="0 0 46.443 39.599">
+  <defs>
+    <filter id="Path_18539" x="0" y="0.741" width="46.443" height="38.858" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+    </filter>
+    <filter id="Path_18539-2" x="0" y="0.741" width="46.443" height="38.858" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_172566_down_arrow_icon" data-name="172566_down_arrow_icon" transform="translate(40.234) rotate(90)">
+    <g id="_172566_down_arrow_icon-2" data-name="172566_down_arrow_icon" transform="translate(0 0)">
+      <rect id="Rectangle_8653" data-name="Rectangle 8653" width="34.137" height="34.137" transform="translate(0 0)" fill="none"/>
+      <g data-type="innerShadowGroup">
+        <g transform="matrix(0, -1, 1, 0, 0, 40.23)" filter="url(#Path_18539)">
+          <path id="Path_18539-3" data-name="Path 18539" d="M6.208,18.905l9.307,12.827,9.307-12.827H18.748C18.748-.672,0,0,0,0s12.283.927,12.283,18.9Z" transform="translate(39.43 4.82) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+        </g>
+        <g transform="matrix(0, -1, 1, 0, 0, 40.23)" filter="url(#Path_18539-2)">
+          <path id="Path_18539-4" data-name="Path 18539" d="M6.208,18.905l9.307,12.827,9.307-12.827H18.748C18.748-.672,0,0,0,0s12.283.927,12.283,18.9Z" transform="translate(39.43 4.82) rotate(90)" fill="#fff"/>
+        </g>
+        <path id="Path_18539-5" data-name="Path 18539" d="M6.208,18.905l9.307,12.827,9.307-12.827H18.748C18.748-.672,0,0,0,0s12.283.927,12.283,18.9Z" transform="translate(4.816 0.799)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

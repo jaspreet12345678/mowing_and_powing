@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77.475" height="77.475" viewBox="0 0 77.475 77.475">
+  <defs>
+    <filter id="Path_18539" x="17.123" y="13.488" width="45.509" height="54.319" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+    </filter>
+    <filter id="Path_18539-2" x="17.123" y="13.488" width="45.509" height="54.319" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_172566_down_arrow_icon" data-name="172566_down_arrow_icon" transform="translate(0 28.358) rotate(-30)">
+    <g id="_172566_down_arrow_icon-2" data-name="172566_down_arrow_icon" transform="matrix(0.839, 0.545, -0.545, 0.839, 22.33, 0)">
+      <rect id="Rectangle_8653" data-name="Rectangle 8653" width="41" height="41" transform="translate(0 0)" fill="none"/>
+      <g data-type="innerShadowGroup">
+        <g transform="matrix(1, -0.05, 0.05, 1, -20.21, -16.16)" filter="url(#Path_18539)">
+          <path id="Path_18539-3" data-name="Path 18539" d="M7.352,22.642,18.374,38,29.4,22.642H22.2C22.2-.805,0,0,0,0s14.546,1.11,14.546,22.639Z" transform="translate(25.28 18.5) rotate(3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+        </g>
+        <g transform="matrix(1, -0.05, 0.05, 1, -20.21, -16.16)" filter="url(#Path_18539-2)">
+          <path id="Path_18539-4" data-name="Path 18539" d="M7.352,22.642,18.374,38,29.4,22.642H22.2C22.2-.805,0,0,0,0s14.546,1.11,14.546,22.639Z" transform="translate(25.28 18.5) rotate(3)" fill="#fff"/>
+        </g>
+        <path id="Path_18539-5" data-name="Path 18539" d="M7.352,22.642,18.374,38,29.4,22.642H22.2C22.2-.805,0,0,0,0s14.546,1.11,14.546,22.639Z" transform="translate(6 0.996)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

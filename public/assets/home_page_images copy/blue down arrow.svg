@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="94.482" height="94.482" viewBox="0 0 94.482 94.482">
+  <defs>
+    <filter id="Path_18539" x="20.905" y="17.26" width="55.025" height="63.724" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+    </filter>
+    <filter id="Path_18539-2" x="20.905" y="17.26" width="55.025" height="63.724" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_172566_down_arrow_icon" data-name="172566_down_arrow_icon" transform="translate(0 34.583) rotate(-30)">
+    <g id="_172566_down_arrow_icon-2" data-name="172566_down_arrow_icon" transform="matrix(0.839, 0.545, -0.545, 0.839, 27.232, 0)">
+      <rect id="Rectangle_8653" data-name="Rectangle 8653" width="50" height="50" fill="none"/>
+      <g data-type="innerShadowGroup">
+        <g transform="matrix(1, -0.05, 0.05, 1, -24.65, -19.7)" filter="url(#Path_18539)">
+          <path id="Path_18539-3" data-name="Path 18539" d="M15.6,29,30,48,44.4,29H35C35,0,6,1,6,1S25,2.373,25,29Z" transform="translate(23.58 20.97) rotate(3)" fill="none" stroke="#0275d8" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+        </g>
+        <g transform="matrix(1, -0.05, 0.05, 1, -24.65, -19.7)" filter="url(#Path_18539-2)">
+          <path id="Path_18539-4" data-name="Path 18539" d="M15.6,29,30,48,44.4,29H35C35,0,6,1,6,1S25,2.373,25,29Z" transform="translate(23.58 20.97) rotate(3)" fill="#fff"/>
+        </g>
+        <path id="Path_18539-5" data-name="Path 18539" d="M15.6,29,30,48,44.4,29H35C35,0,6,1,6,1S25,2.373,25,29Z" fill="none" stroke="#0275d8" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

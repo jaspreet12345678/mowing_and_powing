@@ -1,0 +1,9 @@
+<?php
+
+return [
+    'TEST_PUBLIC_KEY' => env('STRIPE_TEST_PUBLIC_KEY'),
+    'TEST_SECRET_KEY' => env('STRIPE_TEST_SECRET_KEY'),
+    'LIVE_PUBLIC_KEY' => env('STRIPE_LIVE_PUBLIC_KEY'),
+    'LIVE_SECRET_KEY' => env('STRIPE_LIVE_SECRET_KEY'),
+    'LIVE_MODE' => env('STRIPE_LIVE_MODE'),
+];
